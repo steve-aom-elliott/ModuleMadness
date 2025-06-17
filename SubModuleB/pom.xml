@@ -22,7 +22,6 @@
             <groupId>org.example</groupId>
             <artifactId>${a.module}</artifactId>
             <version>${project.version}</version>
-            <type>tgz</type>
         </dependency>
     </dependencies>
 
