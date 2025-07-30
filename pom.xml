@@ -10,30 +10,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>SubmoduleA</module>
-<!--        <module>SubModuleB</module>-->
+        <module>SubModuleB</module>
     </modules>
 
     <properties>
-        <java.version>21</java.version>
-<!--        <maven.compiler.source>21</maven.compiler.source>-->
-<!--        <maven.compiler.target>21</maven.compiler.target>-->
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<!--        <a.module>SubmoduleA</a.module>-->
-<!--        <project.version>${project.version}</project.version>-->
+        <java.version>17</java.version>
     </properties>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.0</version>
-                <configuration>
-                    <release>${java.version}</release>
-                    <parameters>true</parameters>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
 </project>
