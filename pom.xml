@@ -43,10 +43,16 @@
             <artifactId>jsr305</artifactId>
             <version>3.0.2</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.openapitools</groupId>-->
+<!--            <artifactId>openapi-java-client</artifactId>-->
+<!--            <version>1.0.0</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
     </dependencies>
     <properties>
         <openapi.generator.maven.plugin.output>.generatedsources/openapi</openapi.generator.maven.plugin.output>
-        <openapi.generator.maven.plugin.cleanupOutput>true</openapi.generator.maven.plugin.cleanupOutput>
+<!--        <openapi.generator.maven.plugin.cleanupOutput>true</openapi.generator.maven.plugin.cleanupOutput>-->
 <!--        <openapi.generator.maven.plugin.addCompileSourceRoot>true</openapi.generator.maven.plugin.addCompileSourceRoot>-->
     </properties>
     <build>
